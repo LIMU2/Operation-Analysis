@@ -53,4 +53,5 @@ for self-developing
 ![Alt text](https://pic2.zhimg.com/1546ac4bd52323e6f508edb9e9a98dab_r.jpg)
 
 ## Reference Material
-[使用过Spotfire的朋友，可否分析下优缺点](https://www.zhihu.com/question/41444381)
+- [使用过Spotfire的朋友，可否分析下优缺点](https://www.zhihu.com/question/41444381)
+- [matplotlib官方](https://matplotlib.org/)
