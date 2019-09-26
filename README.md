@@ -55,3 +55,4 @@ for self-developing
 ## Reference Material
 - [使用过Spotfire的朋友，可否分析下优缺点](https://www.zhihu.com/question/41444381)
 - [matplotlib官方](https://matplotlib.org/)
+- [numpy中的方差、协方差、相关系数](https://www.cnblogs.com/weiyinfu/p/10693445.html)
