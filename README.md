@@ -52,6 +52,18 @@ for self-developing
 1. 分层抽样和整群抽样有何区别？
 ![Alt text](https://pic2.zhimg.com/1546ac4bd52323e6f508edb9e9a98dab_r.jpg)
 
+## numpy中的方差、协方差、相关系数
+### 方差 np.var
+np实际上是均方差，与方差不太一样，均方差就是把方差平均化。
+np.std是标准差，np.std²=np.var
+无论是方差还是标准差，它们衡量的都是二阶中心距。
+### 协方差 np.cov
+方差是特殊的协方差, D(X) = cov(X, X)
+协方差表示的是两个向量的关联程度，其实相当于：把两个向量中的变量进行中心化（减去均值），然后计算剩余向量的內积。
+np.cov和协方差不太一样，在无偏估计下：np.cov = cov/(n-1);在有偏估计情况下，np.cov = cov/n
+### 相关系数 np.correlate
+np.cov描述的是两个向量协同变化的程度，它的取值可能非常大，也可能非常小，这就没法直观的衡量二者协同变化的程度，而相关系数其实是正则化的协方差。
+
 ## Reference Material
 - [使用过Spotfire的朋友，可否分析下优缺点](https://www.zhihu.com/question/41444381)
 - [matplotlib官方](https://matplotlib.org/)
