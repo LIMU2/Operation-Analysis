@@ -64,8 +64,8 @@ for self-developing
 2. > 数值描述测度：数据的集中趋势测度，数据的变异性测度。
 
 #### 公式
-1. ![](http://latex.codecogs.com/gif.latex?\bar x=\frac{\sum_{i=1}^n x_i}{n})
-2. ![](http://latex.codecogs.com/gif.latex?\bar x) 是样本均值；![](http://latex.codecogs.com/gif.latex?\mu) 是总体均值。
+1. ![](http://latex.codecogs.com/gif.latex?\barx=\frac{\sum_{i=1}^n x_i}{n})
+2. ![](http://latex.codecogs.com/gif.latex?\barx) 是样本均值；![](http://latex.codecogs.com/gif.latex?\mu) 是总体均值。
 
 #### 结论
 1. 一般来说，极端值（更大或更小）对均值的影响要大于中位数。
